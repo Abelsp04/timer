@@ -13,7 +13,7 @@
 */
 .app {
   text-align: center;
-  background-color: #282c34;
+  background-color: black;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -22,7 +22,10 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
+// .container{
+//     background-color: #282c34;
+//     width: 400px; 
+// }
 .time {
   font-size: 3rem;
   padding: 2rem;
@@ -31,11 +34,13 @@
 .button {
   padding: .6rem 1.5rem;
   margin: .4rem;
-  border-radius: 3px;
+  border-radius: 1rem;
   text-transform: uppercase;
   font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: .8rem;
   border-style: groove;
+  
 }
 
 .button:focus {
@@ -45,6 +50,7 @@
 .button-primary:hover {
   background-color: #2641d4;
   border: 1px solid #1b1f2b;
+  
 }
 
 .button-primary-active {
